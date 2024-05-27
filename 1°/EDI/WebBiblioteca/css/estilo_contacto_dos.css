@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::selection{
+    background-color: rgb(194, 62, 62);
+    color: white;
+}
+
+body{
+    background-image: url(../img/background1.jpg);
+    background-size: cover;
+}
+
+
+/*=========ARTICLE==========*/
+
+.div__container-con{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 100px 10px;
+    margin: 100px 0;
+}
+
+.article__titulo{
+    color: rgb(240, 240, 240);
+    font-family: monospace;
+    font-size: 21px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    margin: 10px auto;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.div__container-con-hijo-form{
+    padding: 10px;
+    color: rgb(240, 240, 240);
+    font-family: monospace;
+    text-align: center;
+    font-size: 15px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 3px solid rgba(36, 36, 36, 0.7);
+    margin: auto;
+}
+
+.div__container-con-hijo-form:hover{
+    background-color: rgba(36, 36, 36, 0.7);
+}
+
+label{
+    width: 50px;
+    display: inline-block;     
+}
+
+input{
+    border: 2px solid rgba(36, 36, 36, 0.4);
+    padding: 5px;
+    margin: 10px;
+}
+
+
+button{
+    padding: 10px;
+    color: rgb(240, 240, 240);
+    background-color: rgba(68, 68, 68, 0.5);
+    font-family: monospace;
+    text-align: center;
+    font-size: 15px;
+    border: 0;
+    margin: 15px 0;
+}
+
+button:hover{
+    background-color: rgba(88, 88, 88, 0.5);
+}
+
+
+/*=========FOOTER==========*/
+
+
+.footer{
+    font-size: 15px;
+    color: azure;
+    font-family: monospace;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Florentino Ameghino</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/estilo_contacto.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="header__titulo">Biblioteca Florentino Ameghino</h1>
+        <nav class="nav">
+            <ul class="nav__ul">
+                <li class="nav__ul-li"><a href="index.html">Inicio</a></li>
+                <li class="nav__ul-li"><a href="biblioteca.html">Biblioteca</a></li>
+                <li class="nav__ul-li"><a href="historia.html">Historia</a></li>
+                <li class="nav__ul-li"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br><br>
+
+    <article>
+
+
+        <div class="div__container-con">
+
+            <h2 class="article__titulo">Contactate con nosotros</h2>
+
+            <form class="div__container-con-hijo-form" method="POST" action="enviado.php">
+
+                <div class="div__container-con-hijo-form-elem">
+        
+                    <label>Nombre:</label>
+                    <input type="text" name="nombre" placeholder="¿Cómo te llamas?" maxlength="40" required><br>
+
+                    <label>Email:</label>
+                    <input type="email" name="email" placeholder="Ejemplo@mail.com" maxlength="40" required><br>
+
+                    <label>Motivo:</label>
+                    <input type="text" name="motivo" placeholder="Motivo de la consulta" maxlength="40" required><br>
+
+                    <textarea name="consulta" id="text" cols="55" rows="3" required></textarea><br>
+                
+                    <button type="submit" class="btn btn-primary" name="enviar">Enviar</button>
+                </div> 
+             
+            </form>
+        
+        </div>
+    </article>
+
+    <br><br>
+
+    <footer class="footer">
+        <b>Biblioteca Florentino Ameghino</b><br>
+         © Todos Los Derechos Reservados
+    </footer>
+
+    
+</body>
+</html>
